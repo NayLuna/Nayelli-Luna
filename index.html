@@ -15,9 +15,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Nayelli</a>
+                <a class="navbar-brand" href="#presentacion">Nayelli</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonios</a>
+                            <a class="nav-link active" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link active" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -47,23 +47,29 @@
         </nav>
     </header>
 
-    <main>
+    <main class="pb-5 mb-5">
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                        width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6 shadow p-4 rounded border">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Nayelli Luna</h1>
-                    <p class="lead">Inserte aquí una pequeña descripción</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        <section id="presentacion" class="container-fluid">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-center align-items-center">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-lg-6 shadow p-4 rounded border">
+                        <h1 id="app" class="display-5 fw-bold text-white lh-1 mb-3">
+                            Nayelli Luna</h1>
+                        <p class="lead text-shadow-1 text-white">Tecnica en Desarrollo de negocios, área Mercadotecnia,
+                            con conocimientos básicos en el desarrollo de páginas web en frontend (junior). Siempre en
+                            busca de
+                            nuevos aprendizajes y experiencias, me encanta descubrir cosas nuevas e inscribirme en
+                            algunos cursos para seguir creciendo. En mis horas libres soy una lectora de fantasía,
+                            romance y acción. </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-center">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 text-bg-dark"> <a
+                                    href="https://www.instagram.com/luna_bess_/"
+                                    class="text-white text-decoration-none">Contáctame</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
 
@@ -75,13 +81,56 @@
                         class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
                         <i class="bi bi-code-square"></i>
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Inserte aquí una habilidad</h3>
-                    <p>Descripción de habilidad, desarrollo web</p>
-
+                    <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+                    <p>Creadora junior de sitios web con HTLM y JS. Entusiasta del mundo digital y comprometida a
+                        expandir mis conocimientos. </p>
                 </div>
 
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
+                        <i class="bi bi-bookmark-check icono"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Responsabilidad</h3>
+                    <p>Tengo la responsabilidad con todos los proyectos con los que me comprometo, así como con
+                        cualquier otra actividad que realice dentro y fuera de la vida laboral.</p>
+                </div>
 
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
+                        <i class="bi bi-shadows"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Diseño gráfico</h3>
+                    <p>Uso de herramientas como Adobe Illustrator y Photoshop. </p>
+                </div>
 
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
+                        <i class="bi bi-rainbow"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Adaptabilidad</h3>
+                    <p>Cuento con la capacidad de ajustarme a cambios y nueva situaciones. </p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
+                        <i class="bi bi-receipt"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Redacción y edición</h3>
+                    <p>Escritura de contenido, corrección de textos y creación de artículos. </p>
+                </div>
+
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-dark fs-2 px-3 py-2 rounded m-1">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Empatía</h3>
+                    <p>Capacidad para entender y compartir los sentimimentos de los demás.</p>
+                </div>
             </div>
         </section>
 
@@ -91,46 +140,81 @@
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                 <div class="col">
-                    <div id="proyecto-1"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
+                    <div id="proyecto-1" class="card shadow-sm">
 
-                                <li class="mx-auto">
-                                    <a class="link-light" href="" target="_blank">Click here</a>
-                                </li>
+                        <img src="assets/Clongoogle.png" alt="Clon Google">
 
-                            </ul>
+                        <div class="card-body text-bg-dark">
+                            <p class="card-text fs-2 text-white fw-bold">Clon de Google</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-bg-dark">El Clon de Google es un proyecto que se
+                                    desarrolló en
+                                    el Bootcamp de TECHNOLOCHICAS PRO, bajo la dirección de la mentora Malinali.</small>
+
+                            </div>
+                            <div class="d-flex justify-contener-start mt-3">
+                                <ul class="d-flex list-unstyled mt-auto">
+
+                                    <li class="mx-auto">
+                                        <a class="link-light"
+                                            href="https://clon-google-8oaqnye6i-lunas-projects-223a125b.vercel.app/"
+                                            target="_blank">Click here</a>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
+
+
+                    </div>
 
                 </div>
 
                 <div class="col">
-                    <div id="proyecto-2"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
+                    <div id="proyecto-2" class="card shadow-sm">
 
-                                <li class="mx-auto">
-                                    <a class="link-light" href="" target="_blank">Click here</a>
-                                </li>
+                        <img src="assets/Portafolio.png" alt="Portafolio">
 
-                            </ul>
+                        <div class="card-body text-bg-dark">
+                            <p class="card-text fs-2 text-white fw-bold">Portafolio de habilidades</p>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-bg-dark">El portafolio de habilidades fue creado en el curso de
+                                    Technolochicas PRO Summer Camp.</small>
+
+                            </div>
+                            <div class="d-flex justify-contener-start mt-3">
+                                <ul class="d-flex list-unstyled mt-auto">
+
+                                    <li class="mx-auto">
+                                        <a class="link-light" href="" target="_blank">Click here</a>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </div>
+
+
+
                     </div>
 
-
                 </div>
+
+
+
+
+
+            </div>
 
             </div>
         </section>
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <h2 class="container text-center">Testimonios</h2>
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
+                <!--Los indicadores son los puntitos de encima que permiten navegar por los elementos-->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -139,48 +223,43 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class="active" aria-current="true"></button>
                 </div>
+                <!--Contenido del carrusel-->
                 <div class="carousel-inner">
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center px-5 py-5">
+                            <img class="imagen-redonda" src="" height="300" alt="">
+                            <h3>Nombre de la persona</h3>
+                            <p>OPinion</p>
+                        </article>
+
+
+
                     </div>
-                    <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container text-center px-5 py-5">
+                            <img class="imagen-redonda" src="" height="300" alt="">
+                            <h3>Nombre de la persona 2</h3>
+                            <p>OPinion</p>
+                        </article>
+
+
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center px-5 py-5">
+                            <img class="imagen-redonda" src="" height="300" alt="">
+                            <h3>Nombre de la persona 3</h3>
+                            <p>OPinion</p>
+                        </article>
+
+
+
                     </div>
                 </div>
+
+                <!--Botones que son las flechitas para pasar de diapositivas (slide)-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -194,16 +273,20 @@
 
     </main>
 
-    <footer id="contacto" class="container">
-        <div class="py-3 my-4">
+    <footer id="contacto" class="container-fluid bg-black" data-bs-theme="dark">
+        <div class="py-3">
+            <!--inserta una frase abajo-->
+            <h4 class="text-center text-ligth">"..."</h4>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item">
+                    <!--pegar el verdadero link de IG-->
+                    <a href="https://www.instagram.com/_mesurashii" target="_blank"
+                        class="nav-link px-2 text-body-secondary">
+                        <i class="bi bi-instagram fs-1"></i>
+                    </a>
+                </li>
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Luna, TECHNOLOCHICAS PRO</p>
         </div>
     </footer>
 
@@ -213,6 +296,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
