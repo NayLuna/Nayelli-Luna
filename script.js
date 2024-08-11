@@ -17,7 +17,7 @@ typewriter
     .deleteAll () // debe llevar parentesis para que sea un método, ya que sin ellos es una propiedad
     .typeString('Desarrolladora FRONTED JR')
     .pauseFor(500)
-    .deleteAll (9)
-    .typeString('Desarrolladora de negocios, área Mercadotecnia')
-    .pauseFor(1000) // pausa para volver a escribir
+    .deleteAll ()
+    .typeString('Desarrollo de Negocios en el Área de Mercadotecnia')
+    .pauseFor(250) // pausa para volver a escribir
     .start(); // inicia el efecto
