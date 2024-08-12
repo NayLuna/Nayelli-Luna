@@ -6,7 +6,7 @@ Fue desarrollado con HTML, CSS y JS con el uso de el framework de UI, Bootstrap 
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto.
 
-[Proyecto Desplegado (poner link de proyecto aquí)](link otra vez aquí)
+[Proyecto Desplegado (https://nayelli-luna-9zl1ivjg5-lunas-projects-223a125b.vercel.app/)](https://nayelli-luna-9zl1ivjg5-lunas-projects-223a125b.vercel.app/)
 
 ## Secciones de mi sitio
 
