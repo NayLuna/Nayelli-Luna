@@ -3,6 +3,10 @@ selector {
     propiedad: valor !important;
 }
 */
+#ana {
+    border-radius: 50% !important;
+
+}
 
 #presentacion {
     min-height: 85vh;
@@ -34,6 +38,6 @@ selector {
     text-shadow: 1px -1px 8px rgba(0, 0, 0, .90);
 }
 
-.imagen-redonda{
+.imagen-redonda {
     border-radius: 50%;
 }
